@@ -3,3 +3,4 @@ worklog
 .DS_Store
 .idea/
 .meteor/dev_bundle
+config/
