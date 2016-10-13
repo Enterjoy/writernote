@@ -2,14 +2,13 @@
   "name": "writernote",
   "private": true,
   "scripts": {
-      "start": "meteor --settings config/dev/settings.json",
-      "dev": "meteor --settings config/dev/settings.json",
-      "dev_fixtures": "LOAD_FIXTURES=true meteor --settings config/dev/settings.json ",
-      "dev_fixtures_win": "set LOAD_FIXTURES=true meteor --settings config/dev/settings.json ",
-      "prod": "meteor --settings config/prod/settings.json"
+    "start": "meteor --settings config/dev/settings.json",
+    "dev": "meteor --settings config/dev/settings.json",
+    "dev_fixtures": "LOAD_FIXTURES=true meteor --settings config/dev/settings.json ",
+    "dev_fixtures_win": "set LOAD_FIXTURES=true meteor --settings config/dev/settings.json ",
+    "prod": "meteor --settings config/prod/settings.json"
   },
   "dependencies": {
-    "meteor-node-stubs": "~0.2.0",
     "aws-sdk": "^2.6.7",
     "bcrypt": "^0.8.7",
     "classnames": "^2.2.5",
