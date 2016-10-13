@@ -1,0 +1,31 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": ""
+    }
+  },
+  "private": {
+    "facebook": {
+      "namespace": "",
+      "appId": "",
+      "secret": ""
+    },
+    "google": {
+      "clientId": "",
+      "secret": ""
+    },
+    "mailgun": {
+      "key": "",
+      "smtpdomain": "smtp.mailgun.org",
+      "domain": "writernote.com",
+      "login": "postmaster@writernote.com",
+      "password": ""
+    },
+    "aws": {
+      "bucket": "writernote",
+      "key": "",
+      "secret": "",
+      "region": ""
+    }
+  }
+}

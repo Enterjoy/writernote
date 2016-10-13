@@ -1,0 +1,26 @@
+{
+  "private": {
+    "facebook": {
+      "namespace": "",
+      "appId": "358234684508561",
+      "secret": "d3086247e7e211ac7b439cdc84749275"
+    },
+    "google": {
+      "clientId": "311024260797-jb98qvneflhd5dv7tdp56jrldnbughc7.apps.googleusercontent.com",
+      "secret": "cFVTUzfEU1ifsdZFAwcshe5g"
+    },
+    "mailgun": {
+      "key": "",
+      "smtpdomain": "smtp.mailgun.org",
+      "domain": "writernote.com",
+      "login": "postmaster@writernote.com",
+      "password": ""
+    },
+    "aws": {
+      "bucket": "writenote-dev",
+      "key": "",
+      "secret": "",
+      "region": ""
+    }
+  }
+}
