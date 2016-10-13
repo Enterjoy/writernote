@@ -1,0 +1,10 @@
+import './updateFolderStatus.js';
+import './updateFolderLabel.js';
+import './updateFolderSynopsis.js';
+import './updateFolderNotes.js';
+import './newFolder.js';
+import './deleteFolder.js';
+import './restoreFolder.js';
+import './updateFolder.js';
+import './exportFolder.js';
+import './calStat.js';

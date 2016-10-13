@@ -1,0 +1,127 @@
+@font-face {
+    font-family: 'webfont_bold';
+    src: url('/fonts/proxima_nova_bold.woff2') format('woff2'),
+         url('/fonts/proxima_nova_bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'webfont_light';
+    src: url('/fonts/proxima_nova_light.woff2') format('woff2'),
+         url('/fonts/proxima_nova_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'webfont_regular';
+    src: url('/fonts/proxima_nova_regular.woff2') format('woff2'),
+         url('/fonts/proxima_nova_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  * {
+    // font-family: 'webfont_light', sans-serif;
+    font-size: 16px;
+    color: #555555;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+  }
+  a {
+    &:hover, &:focus {
+      text-decoration: none;
+      color: #555555;
+    }
+    &.underline {
+      text-decoration: underline;
+    }
+  }
+  p {
+    line-height: 18px;
+  }
+  img {
+    width: 100%;
+  }
+  .btn {
+    border: none;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding: 10px 0;
+  }
+  .green-bg {
+    background-color: #28a956;
+    &:hover {
+      background-color: #1b773c;
+    }
+  }
+  .red-bg {
+    background-color: #bf2a2a;
+    &:hover {
+      background-color: #900909;
+    }
+  }
+  input, button {
+    outline: none !important;
+    box-shadow: none !important;
+    border-radius: 3px !important;
+  }
+
+  .modal {
+    .modal-title {
+      * {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      i {
+        margin-right: 5px;
+        font-size: 20px;
+      }
+      span {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+    .modal-body {
+      .form-group {
+        label {
+          font-size: 14px;
+          margin-bottom: 5px;
+        }
+      }
+    }
+    .modal-footer {
+      text-align: center;
+      button {
+        padding: 8px 12px;
+        margin: 0 5px;
+        i {
+          font-size: 14px;
+          margin-right: 4px;
+        }
+        * {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+  .page {
+    padding-top: 96px;
+  }
+  .btn-default {
+    background: none;
+    border: 1px solid #337ab7;
+    * {
+      color: #337ab7;
+    }
+  }
+  .btn-primary {
+    * {
+      color: #fff;
+    }
+  }
+}

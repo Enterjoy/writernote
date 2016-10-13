@@ -1,0 +1,53 @@
+.admin-page {
+  .user-account-block {
+    .container {
+      position: relative;
+    }
+    .search-block {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      width: 300px;
+      i {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 9px;
+        color: #ccc;
+      }
+      input {
+        padding-left: 33px;
+      }
+    }
+    table {
+      margin: 14px 0 0;
+      th, td {
+        border: 1px solid #ccc !important;
+        text-align: center;
+        .checkbox {
+          margin: 0;
+        }
+      }
+      th {
+        padding: 10px;
+        cursor: pointer;
+        * {
+          display: inline-block;
+          vertical-align: middle;
+        }
+        span {
+          font-family: 'webfont_regular';
+          text-transform: uppercase;
+          font-size: 14px;
+          margin-right: 5px;
+        }
+      }
+      td {
+        button {
+          padding: 5px 10px;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+}

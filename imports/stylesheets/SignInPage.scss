@@ -1,0 +1,99 @@
+.signin-page {
+  border-top: 4px solid #2dbe60;
+  padding-top: 100px;
+  input, button {
+    border: none !important;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    * {
+      font-size: 30px;
+      color: #28a956;
+    }
+  }
+  .signin-content {
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 35px 25px;
+    background-color: #f5f5f5;
+    .btn {
+      width: 100%;
+      margin: 10px 0;
+      * {
+        color: #fff;
+      }
+    }
+    form {
+      .form-group {
+        label {
+          margin-bottom: 5px;
+          * {
+            font-size: 14px;
+          }
+        }
+        input {
+          border: 1px solid #ccc !important;
+          height: 40px;
+        }
+      }
+      .forgot-password {
+        display: block;
+        text-align: right;
+        margin-bottom: 10px;
+        * {
+          font-size: 12px;
+          font-style: italic;
+        }
+      }
+    }
+    .line {
+      text-align: center;
+      margin: 10px 0;
+      * {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      label {
+        width: 100px;
+        height: 1px;
+        background: #ccc;
+      }
+      .or {
+        margin: 0 8px;
+        * {
+          font-size: 13px;
+        }
+      }
+    }
+    .group-btn {
+      .btn {
+        position: relative;
+        text-align: center;
+        &.facebook-btn {
+          background-color: #3b5998;
+        }
+        &.google-btn {
+          background-color: #df4a32;
+        }
+        * {
+          color: #fff;
+          display: inline-block;
+          vertical-align: middle;
+        }
+        i {
+          padding: 13px;
+          border-right: 1px solid #fff;
+          font-size: 18px;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+      }
+    }
+  }
+}

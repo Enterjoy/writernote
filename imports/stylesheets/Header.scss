@@ -1,0 +1,151 @@
+.header {
+  position: fixed;
+  border-bottom: 1px solid #ccc;
+  z-index: 10;
+  background-color: #fff;
+  padding-bottom: 10px;
+  width: 100%;
+  .logo {
+    width: 70px;
+    display: inline-block;
+  }
+  .right {
+    float: right;
+    margin-top: 50px;
+    a {
+      margin: 0 10px;
+      display: inline-block;
+      vertical-align: middle;
+      &.menu-button {
+        i {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  .languages-block {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    a {
+      display: inline-block;
+      margin: 0 10px;
+      width: 30px;
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      &.active {
+        -webkit-filter: grayscale(0);
+        -moz-filter: grayscale(0);
+        -o-filter: grayscale(0);
+        filter: grayscale(0);
+      }
+      &.korean-flag {
+        width: 34px;
+      }
+    }
+  }
+  &.novel-detail-layout {
+    .logo {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .novel-name {
+      display: inline-block;
+      vertical-align: middle;
+      text-transform: uppercase;
+      margin: 6px 40px 0 20px;
+      font-family: 'webfont_regular';
+      font-size: 24px;
+    }
+    .actions-detail {
+      margin-left: 10%;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      button {
+        padding: 10px 0;
+        background-color: #fff;
+        border: none;
+        width: 110px;
+        &.btn-export {
+          border-right: 1px solid #ccc;
+          border-left: 1px solid #ccc;
+          margin: 0 1px;
+          border-radius: 0 !important;
+        }
+        i {
+          margin-right: 6px;
+        }
+      }
+    }
+    .btn-group {
+      .btn {
+        * {
+          color: #555555;
+        }
+      }
+    }
+    .btn-timer {
+      * {
+        color: #fff;
+        padding: 10px 12px;
+        font-weight: bold;
+      }
+    }
+    .right {
+      margin-top: -40px;
+      margin-left: 10px;
+      position: relative;
+      right: 14px;
+      .user-info {
+        cursor: pointer;
+      }
+      * {
+        display: inline-block;
+        vertical-align: middle;
+      }
+      i {
+        margin-left: 7px;
+        margin-top: -7px;
+      }
+      .dropdown {
+        width: 250px;
+        text-align: center;
+        background: #f5f5f5;
+        border: 1px solid #ccc;
+        padding: 10px 15px 10px;
+        top: 30px;
+        right: -8px;
+        border-radius: 3px;
+        position: absolute;
+        &:after, &:before {
+          position: absolute;
+          content: "";
+          right: 30px;
+          border-left: 6px solid transparent;
+          border-right: 6px solid transparent;
+        }
+        &:before {
+        	border-bottom: 8px solid #ccc;
+          top: -9px;
+        }
+        &:after {
+        	border-bottom: 8px solid #f5f5f5;
+          top: -8px;
+        }
+        ul {
+          width: 100%;
+          li {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            button {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
