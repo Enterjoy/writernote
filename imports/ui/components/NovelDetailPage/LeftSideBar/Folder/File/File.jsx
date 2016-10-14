@@ -40,6 +40,7 @@ export class File extends Component {
       isActive,
       isFocus,
       isDelete,
+      words,
     } = this.props;
 
     const divClass = classNames({
