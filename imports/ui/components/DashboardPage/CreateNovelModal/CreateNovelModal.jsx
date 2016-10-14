@@ -156,6 +156,7 @@ export class CreateNovelModal extends Component {
                   name="image"
                   type="file"
                   className="form-control"
+                  accept="image/gif, image/jpeg, image/png"
                   onChange={this.fileChange}
                 />
               </div>
