@@ -63,7 +63,7 @@ export class File extends Component {
           onClick={onClick}
         >
           <i className="icon-file-empty"></i>
-          <span>{name}</span>
+          <span>{name} ({words})</span>
         </a>
       </div>
     );
