@@ -3,4 +3,6 @@ worklog
 .DS_Store
 .idea/
 .meteor/dev_bundle
-config/
+
+config/dev/settings.json
+config/prod/settings.json
