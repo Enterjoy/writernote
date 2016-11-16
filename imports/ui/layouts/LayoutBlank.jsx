@@ -112,7 +112,11 @@ export class LayoutBlank1 extends Component {
 
     this.changeLanguage = this.changeLanguage.bind(this);
   }
+  componentDidMount() {
+    this.changeLanguage(Session.get('locale'));
+  }
   changeLanguage(locale) {
+    Session.set('locale', locale);
     switch (locale) {
       case 'en-US':
         this.setState({
