@@ -2,25 +2,25 @@
   "private": {
     "facebook": {
       "namespace": "",
-      "appId": "358234684508561",
-      "secret": "d3086247e7e211ac7b439cdc84749275"
+      "appId": "166108946867446",
+      "secret": "f8701da8df6349a11094b182a64fe3e2"
     },
     "google": {
       "clientId": "311024260797-jb98qvneflhd5dv7tdp56jrldnbughc7.apps.googleusercontent.com",
       "secret": "cFVTUzfEU1ifsdZFAwcshe5g"
     },
     "mailgun": {
-      "key": "",
+      "key": "key-80a4437164b9edf242fe804f515bdf19",
       "smtpdomain": "smtp.mailgun.org",
       "domain": "writernote.com",
       "login": "postmaster@writernote.com",
-      "password": ""
+      "password": "37600b911e4d37e61f6eaefb0d90b3f6"
     },
     "aws": {
       "bucket": "writenote-dev",
-      "key": "",
-      "secret": "",
-      "region": ""
+      "key": "AKIAIY5SRH57BCZW2KZQ",
+      "secret": "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",
+      "region": "ap-southeast-1"
     }
   }
 }
