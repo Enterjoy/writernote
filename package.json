@@ -14,7 +14,7 @@
     "classnames": "^2.2.5",
     "diff": "^3.0.0",
     "draft-js": "^0.9.0",
-    "draft-js-export-html": "^0.4.0",
+    "draft-js-export-html": "^0.5.2",
     "hint.css": "^2.3.2",
     "jsdiff": "^1.1.1",
     "mailgun-js": "^0.7.12",
